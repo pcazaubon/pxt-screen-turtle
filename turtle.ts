@@ -370,6 +370,29 @@ namespace turtle {
         _turtle.stamp(image)
     }
 
+     /**
+     * Returns the x position of the turtle
+     * @param image 
+     */
+    //% _blockId=turtlexPosition block="xPosition %image=screen_image_picker"
+    //% group="Default"
+    export function xPosition() {
+        init();      
+        return _turtle.x;
+    }
+
+    /**
+     * Returns the y position of the turtle
+     * @param image 
+     */
+    //% _blockId=turtleyPosition block="yPosition %image=screen_image_picker"
+    //% group="Default"
+    export function yPosition() {
+        init();      
+        return _turtle.y;
+    }
+
+
     /**
      * Clears the drawings created by the turtle
      */
